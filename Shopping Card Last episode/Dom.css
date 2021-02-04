@@ -1,0 +1,62 @@
+body {
+  background-color: burlywood;
+}
+i {
+  font-size: 30px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  
+}
+#title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
+  border: 2px solid;
+  width: 300px;
+  text-align: center;
+  background-color: crimson;
+  border-radius: 10px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  border: 6px solid burlywood;
+  border-radius: 20px;
+  border: 4px solid  burlywood;
+}
+
+p {
+  font-size: 20;
+  font-weight: 400;
+}
+.unit-price {
+  font-size: 20px;
+  font-weight: bolder;
+  color: crimson;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+
+.card img {
+  height: 300px;
+}
+
+.fa-trash-alt {
+  color: #dd6d5c;
+}
+
+.qute {
+  font-size: 30px;
+}

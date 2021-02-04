@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkpoint-Dom</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Dom.css" />
+  </head>
+
+  <body>
+    <header>
+   
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class="shopping-card-container">
+        <p id="title">Total Price : <span class="total-price">0 </span>$</p>
+        <div class="products">
+          <!-- product #1 -->
+          <div class="card" style="width: 18rem">
+            <img src="https://i.pinimg.com/originals/39/46/17/394617ae308dc0d9b5e30dcefc007a02.png" class="card-img-top" alt="maryoul" />
+            <div class="card-body">
+              <h5 class="card-title">CA T-SHIRT </h5>
+              <p class="card-text">( Leebsou bilel Ifa 3 marrat )</p>
+              <span class="unit-price">100</span>
+              <span>$</span>
+            </div>
+
+            <div class="card-body">
+              <i class="fas fa-plus-circle"></i>
+              <span class="qute">0</span>
+              <i class="fas fa-minus-circle"></i>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="https://100pour100tounsi.com/images/thumbs/0004262_tasse-club-africain-tunisie_635.jpeg" class="card-img-top" alt="kes" />
+            <div class="card-body">
+              <h5 class="card-title">Kes 7lib</h5>
+              <p class="card-text">( sauf les produits "Delices")</p>
+              <span class="unit-price">10</span>
+              <span>$</span>
+            </div>
+
+            <div class="card-body">
+              <i class="fas fa-plus-circle"></i>
+              <span class="qute">0</span>
+              <i class="fas fa-minus-circle"></i>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="https://i-cf5.gskstatic.com/content/dam/cf-consumer-healthcare/panadol/en_ie/ireland-products/panadol-extra/MGK5158-GSK-Panadol-Extra-455x455.png?auto=format" class="card-img-top" alt="Dwee" />
+            <div class="card-body">
+              <h5 class="card-title">panadol-Extra</h5>
+              <p class="card-text">specially used ki tebda l club tkawer.</p>
+              <span class="unit-price">5</span>
+              <span>$</span>
+            </div>
+
+            <div class="card-body">
+              <i class="fas fa-plus-circle"></i>
+              <span class="qute">0</span>
+              <i class="fas fa-minus-circle"></i>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  
+    <script src="Dom.js"></script>
+  </body>
+</html>
